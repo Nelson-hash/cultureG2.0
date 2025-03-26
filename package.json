@@ -2,7 +2,9 @@
   "name": "millionaire-quiz-game",
   "version": "1.0.0",
   "description": "An interactive quiz game with AI-generated questions",
-  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
